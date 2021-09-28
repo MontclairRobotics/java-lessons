@@ -128,13 +128,18 @@ public class Lesson1
         System.out.println(result);
     }
 
-<<<<<<< HEAD
-      //if statements are used to evaluate IF a statement is true or false, such as "is x equal to 1", or "is y equal to (x - z)"
-      //to create an if statement, type if() {} with your condition inside the parentheses and action inside of the brackets
-      //an example of an if statement is
+//<<<<<<< HEAD
+
 
     public static void IfStatements() {
-      int x = 1;
+
+        //don't worry about this for now, this just allows us to generate a random number from 0 and 1 for x
+        Random r = new Random();
+        int x = r.nextInt(2);
+
+        //if statements are used to evaluate IF a statement is true or false, such as "is x equal to 1", or "is y equal to (x - z)"
+        //to create an if statement, type if() {} with your condition inside the parentheses and action inside of the brackets
+        //an example of an if statement is
 
         if(x == 1) {
           System.out.println(x);
@@ -143,19 +148,38 @@ public class Lesson1
         // notice how there are two equals signs, this is because
       //when using if statements you must use == when saying "equals to"
 
-        Random r = new Random();
+        x = r.nextInt(2);
 
-        int uhh = r.nextInt(2);
-        String y = "Yay you did it";
+        /* put your code here to print "X is equal to one" if x is equal to one */
 
-        /* put your code here to print y if x is equal to one */
+        // else statements run their code if the if statement above it has a condition that is false */
+        //an else statement looks like this
 
+        if (x == 1) {
+            //action
+        }
+        else {
+            //action
+        }
+
+        //you can also add an if after else to create an else if statement
+
+        if (x == 1) {
+            //action
+        }
+        else if (x == 0) {
+            //action
+        }
+
+        x = r.nextInt(3);
+
+        /* put your code here to print whether x equals 0, 1, or 2 using if and else statements */
 
     }
 
 
 
-=======
+//=======
     public static void Strings()
     {
         //Java also has a (mostly) built-in type for text, called "String"
@@ -218,5 +242,5 @@ public class Lesson1
         String wow2 = "wo" + "w";
         System.out.print(wow.equals("wo" + "w"));
     }
->>>>>>> main
+//>>>>>>> main
 }
