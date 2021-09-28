@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Lesson1
 {
     //TODO: Do not modify
@@ -125,4 +127,31 @@ public class Lesson1
         //TODO: DO NOT MODIFY
         System.out.println(result);
     }
+
+      //if statements are used to evaluate IF a statement is true or false, such as "is x equal to 1", or "is y equal to (x - z)"
+      //to create an if statement, type if() {} with your condition inside the parentheses and action inside of the brackets
+      //an example of an if statement is
+
+    public static void IfStatements() {
+      int x = 1;
+
+        if(x == 1) {
+          System.out.println(x);
+      }
+
+        // notice how there are two equals signs, this is because
+      //when using if statements you must use == when saying "equals to"
+
+        Random r = new Random();
+
+        int uhh = r.nextInt(2);
+        String y = "Yay you did it";
+
+        /* put your code here to print y if x is equal to one */
+
+
+    }
+
+
+
 }
